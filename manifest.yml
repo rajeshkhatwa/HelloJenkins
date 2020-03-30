@@ -5,3 +5,4 @@ applications:
     random-route: true
     host: khatwa-spring1
     buildpack: java_buildpack
+    path: ./target/junitexample-0.0.1-SNAPSHOT.jar
