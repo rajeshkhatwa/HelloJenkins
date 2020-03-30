@@ -1,7 +1,7 @@
----
 applications:
-- name: cf-test-junit
-  memory: 192M
-  instances: 1
-  random-route: true
-host : myhosti311450
+  - name: test-spring-boot1
+    memory: 256M
+    instances: 1
+    random-route: true
+    host: khatwa-spring1
+    buildpack: java_buildpack
